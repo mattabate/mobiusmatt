@@ -2,6 +2,8 @@
 
 The word MATT cut out of a Möbius strip, rendered in matplotlib.
 
+![MATT cut out of a Möbius strip, turning](mobius_matt.gif)
+
 ## What it does
 
 `main.py` parameterises a Möbius strip on a fine grid, lays the letters of the
@@ -37,6 +39,10 @@ python matt_font.py                     # preview one letter
 ```
 
 `--word` accepts any word spelled from the letters M, A and T.
+
+The GIF above is `python make_gif.py`: the same strip, one turn of the camera
+with two rocks of elevation, 120 frames at 12 fps, written headless with
+Pillow (`pip install pillow` on top of the requirements).
 
 ## History
 
