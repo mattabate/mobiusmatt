@@ -1,0 +1,24 @@
+[project]
+name = "mobiusmatt"
+version = "0.1.0"
+description = "Write a word in a hand-drawn font on a Möbius strip or a torus, in matplotlib."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Matt Abate" }]
+dependencies = [
+    "numpy>=1.23",
+    "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/mattabate/mobiusmatt"
+
+[project.scripts]
+mobiusmatt = "mobiusmatt.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
