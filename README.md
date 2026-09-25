@@ -1,6 +1,6 @@
 # mobiusmatt
 
-The word MATT cut out of a Möbius strip, rendered in matplotlib.
+The word MATT cut out of a Möbius strip, rendered in matplotlib. March–April 2024.
 
 ![MATT cut out of a Möbius strip, turning](mobius_matt.gif)
 
@@ -161,7 +161,9 @@ half twist and the font, and run each command headless.
 
 ## History
 
-From April 2024 until September 2026 this lived at
+The first version was committed on 12 March 2024, alongside the SIGBOVIK
+2024 code; the hand-drawn font, the torus and the version of `main.py` here
+arrived on 1 April 2024. From then until September 2026 it lived at
 `github.com/mattabate/wordplay/tree/main/mobiusmatt`. The commit history
 stays in [wordplay](https://github.com/mattabate/wordplay).
 
